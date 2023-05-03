@@ -11,7 +11,15 @@ body:
           required: true
   - type: textarea
     attributes:
-      label: Run a Diagnostic and Paste Link Here
+      label: Diagnostic information
+      value: |
+        <details>
+         <summary>Expand diagnostic information</summary>
+         ```
+         [COPY-PASTE HERE THE DIAGNOSIC INFORMATION]
+         ```
+        </details>
+         
       description: |
         If you’re having trouble with DDEV, help us with context that will skip a bunch of questions:
 
